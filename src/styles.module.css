@@ -1,0 +1,98 @@
+.container {
+  background: #e5ffed;
+  display: flex;
+  justify-content: space-evenly;
+  margin:auto;
+  padding-top: 60px;
+  height: 100%;
+}
+
+.content {
+  position: relative;
+  width: 460px;
+}
+
+.content > div {
+  position: absolute;
+  width: 460px;
+  height: 80px;
+  transform-origin: 50% 50% 0px;
+  border-radius: 5px;
+  border: 1px solid #00000010;
+  color: white;
+  padding: 4px;
+  letter-spacing: 2px;
+  background: #fff;
+  background: linear-gradient(67deg, #e9f2f9 0%, #f2f9ff 80%);
+}
+
+.transaction {
+  display: flex;
+  height: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.transaction > div:nth-child(2) {
+  width: 300px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  background: rgb(255 255 255);
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #ababab;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  flex-grow: 1;
+  color: #555;
+}
+
+.category {
+  color: #666;
+  letter-spacing: 0.4px;
+  font-weight: 500;
+  line-height: 16px;
+  font-size: 12px;
+  width: min-content;
+  border-radius: 4px;
+}
+
+.amount {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: right;
+  letter-spacing: 1px;
+  align-self: center;
+  width: 100px;
+}
+
+.addItem {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: right;
+  letter-spacing: 1px;
+  align-self: center;
+  position: absolute;
+  top: -40px;
+}
+
+.void {
+  color: rgb(255, 101, 101);
+  font-size: 12px;
+  font-weight: 400;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 12px;
+}
